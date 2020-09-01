@@ -8,7 +8,7 @@ COPY Gemfile Gemfile.lock package.json yarn.lock ./
 RUN gem install bundler
 RUN bundle install
 
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs ghostscript sqlite3 vim chromium
+# RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs ghostscript sqlite3 vim chromium
 
 # [Option] Install Node.js
 # ARG NODE_VERSION="lts/*"

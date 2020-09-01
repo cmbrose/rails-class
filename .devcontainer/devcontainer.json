@@ -11,6 +11,5 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "extensions": ["rebornix.Ruby"],
-  "remoteUser": "vscode"
+  "extensions": ["rebornix.Ruby"]
 }
