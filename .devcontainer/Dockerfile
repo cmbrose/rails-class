@@ -11,5 +11,5 @@ RUN bundle install
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs ghostscript sqlite3 vim chromium
 
 # [Option] Install Node.js
-ARG NODE_VERSION="lts/*"
-RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"
+# ARG NODE_VERSION="lts/*"
+# RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"
